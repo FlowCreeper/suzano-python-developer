@@ -13,3 +13,9 @@ print(type(valor_str)) # <class 'str'>
 
 print(100 / 2) # Divisão de inteiros >>> 50.0
 print(100 // 2) # Divisão inteira de inteiros >>> 50
+# Se o qualquer um dos números for float, o resultado será float arredondado para baixo
+print(100 / 2.0) # Divisão de int por float >>> 50.0
+print(100.0 / 2) # Divisão de float por int >>> 50.0
+print(100.0 // 2.0) # Divisão de float por float >>> 50.0
+print(7 / 4) # Divisão de inteiros >>> 1.75
+print(7.0 // 4.0) # Divisão de float por float arredondando para baixo >>> 1.0
