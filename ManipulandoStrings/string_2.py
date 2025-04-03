@@ -6,7 +6,7 @@ saldo = 45.435
 
 pessoa = {"nome": nome, "idade": idade, "profissao": profissao, "linguagem": linguagem}
 
-# Formatação de Strings
+# Interpolação de Strings
 
 print("Nome: %s, Idade: %d" % (nome, idade)) # Old Style %s = string, %d = int, %f = float
 
